@@ -1,0 +1,86 @@
+"'work order product screen' As screen":
+
+    Label32 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =56
+        Size: =21
+        Text: ="work order product"
+        Width: =640
+        ZIndex: =1
+
+    "Gallery6 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
+        Height: =1072
+        Items: =Filter('Work Order Products', 'Work Order'.'Work Order Number' = Gallery1.Selected.'Work Order'.'Work Order Number')
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(104, Self.Height - 60)
+        Y: =56
+        ZIndex: =1
+
+        Title8 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle4 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Description
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title8.Y + Title8.Height + 4
+            ZIndex: =2
+
+        Separator22 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =4
+
+        Button18 As button:
+            Height: =46
+            OnSelect: =UpdateWorkOrderProductLineStatus.Run(ThisItem.'Work Order Product')
+            Size: =24
+            Text: ="Line Status"
+            Visible: =If(Label35.Text=Label36.Text,true,false)
+            Width: =190
+            X: =410
+            Y: =30
+            ZIndex: =5
+
+    Label36 As label:
+        Height: =70
+        OnSelect: =
+        Size: =21
+        Text: ="Completed"
+        Visible: =false
+        Width: =560
+        X: =20
+        Y: =306
+        ZIndex: =3
+
+    Icon19 As icon.ChevronLeft:
+        Height: =56
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(UpdateBooking)
+        Width: =49
+        X: =576
+        ZIndex: =4
+
