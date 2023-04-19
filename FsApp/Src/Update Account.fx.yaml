@@ -2,7 +2,6 @@
 
     Form1_1 As form:
         DataSource: =Accounts
-        DefaultMode: =FormMode.New
         Height: =904
         Item: =Gallery9.Selected
         Width: =640
@@ -257,7 +256,7 @@
 
             DataCardValue70 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Gallery9.Selected
+                Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -453,7 +452,7 @@
         OnSelect: |-
             =SubmitForm(Form1_1);
             Notify("Account is successfully updated",NotificationType.Success);
-            ResetForm(Form1_1)
+            //ResetForm(Form1_1)
         Size: =24
         Text: ="Save"
         Width: =640

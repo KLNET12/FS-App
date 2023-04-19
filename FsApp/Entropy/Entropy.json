@@ -1076,7 +1076,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/19/2023 09:12:34",
+  "HeaderLastSavedDateTimeUTC": "04/19/2023 09:24:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0caf350f-cfc9-4471-8eb1-b44cc95322b1": "\"/providers/microsoft.powerapps/apis/shared_microsoftformspro/connections/34c2e9c13d8449a7b961c6abd4ddd4e7\"",
@@ -4881,7 +4881,7 @@
       "typedDataCard": 107
     },
     "DeserializationLoadTime": 8.6718942,
-    "ErrorCount": 9
+    "ErrorCount": 8
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
