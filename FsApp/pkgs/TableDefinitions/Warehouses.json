@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Warehouses",
   "InstanceUrl": "https://msservice.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "msdyn_warehouses",
-    "logicalName": "msdyn_warehouse"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://msservice.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('msdyn_warehouse')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

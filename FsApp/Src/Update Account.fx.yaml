@@ -2,7 +2,6 @@
 
     Form1_1 As form:
         DataSource: =Accounts
-        DefaultMode: =FormMode.New
         Height: =904
         Item: =Gallery9.Selected
         Width: =640
@@ -22,7 +21,7 @@
             Update: =DataCardValue73.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =1
 
             DataCardKey85 As label:
@@ -95,7 +94,7 @@
             Update: =DataCardValue75.Text
             Width: =640
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey87 As label:
@@ -168,7 +167,7 @@
             Update: =DataCardValue83.Text
             Width: =640
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =1
 
             DataCardKey95 As label:
@@ -228,23 +227,23 @@
                 Y: =DataCardKey95.Y
                 ZIndex: =4
 
-        "'Account Name_DataCard3' As typedDataCard.textualEditCard":
+        "'Account Name_DataCard4' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="name"
-            Default: =
+            Default: =ThisItem.'Account Name'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Accounts],DataSourceInfo.DisplayName,"name")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Accounts], DataSourceInfo.MaxLength, "name")
             Required: =true
-            Update: =DataCardValue70.Text
+            Update: =DataCardValue85.Text
             Width: =640
             X: =0
-            Y: =0
-            ZIndex: =2
+            Y: =5
+            ZIndex: =1
 
-            DataCardKey82 As label:
+            DataCardKey97 As label:
                 AutoHeight: =true
                 Height: =48
                 Size: =21
@@ -255,9 +254,9 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue70 As text:
+            DataCardValue85 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Gallery9.Selected
+                Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -271,10 +270,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey82.Y + DataCardKey82.Height + 5
+                Y: =DataCardKey97.Y + DataCardKey97.Height + 5
                 ZIndex: =2
 
-            ErrorMessage79 As label:
+            ErrorMessage86 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -287,18 +286,18 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue70.Y + DataCardValue70.Height
+                Y: =DataCardValue85.Y + DataCardValue85.Height
                 ZIndex: =3
 
-            StarVisible79 As label:
+            StarVisible86 As label:
                 Align: =Align.Center
-                Height: =DataCardKey82.Height
+                Height: =DataCardKey97.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey82.Y
+                Y: =DataCardKey97.Y
                 ZIndex: =4
 
         "'Main Phone_DataCard3' As typedDataCard.textualEditCard":
@@ -314,7 +313,7 @@
             Update: =DataCardValue71.Text
             Width: =640
             X: =0
-            Y: =1
+            Y: =0
             ZIndex: =2
 
             DataCardKey83 As label:
@@ -388,7 +387,7 @@
             Update: =DataCardValue72.Text
             Width: =640
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =2
 
             DataCardKey84 As label:
@@ -453,7 +452,7 @@
         OnSelect: |-
             =SubmitForm(Form1_1);
             Notify("Account is successfully updated",NotificationType.Success);
-            ResetForm(Form1_1)
+            //ResetForm(Form1_1)
         Size: =24
         Text: ="Save"
         Width: =640

@@ -2,10 +2,6 @@
   "DatasetName": "default.cds",
   "EntityName": "Product Inventory",
   "InstanceUrl": "https://msservice.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "msdyn_productinventories",
-    "logicalName": "msdyn_productinventory"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://msservice.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('msdyn_productinventory')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

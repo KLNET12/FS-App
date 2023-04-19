@@ -187,10 +187,6 @@
       "OptionSetReferenceItem5": {
         "OptionSetReferenceColumnName": "activitytypecode",
         "OptionSetReferenceEntityName": "Tasks"
-      },
-      "OptionSetReferenceItem6": {
-        "OptionSetReferenceColumnName": "activitytypecode",
-        "OptionSetReferenceEntityName": "Service Activities"
       }
     },
     "OptionSetTypeKey": "EntityNameType",
@@ -220,10 +216,6 @@
       "OptionSetReferenceItem2": {
         "OptionSetReferenceColumnName": "deliveryprioritycode",
         "OptionSetReferenceEntityName": "Email Messages"
-      },
-      "OptionSetReferenceItem3": {
-        "OptionSetReferenceColumnName": "deliveryprioritycode",
-        "OptionSetReferenceEntityName": "Service Activities"
       }
     },
     "OptionSetTypeKey": "PicklistType",
@@ -327,10 +319,6 @@
       "OptionSetReferenceItem5": {
         "OptionSetReferenceColumnName": "isregularactivity",
         "OptionSetReferenceEntityName": "Tasks"
-      },
-      "OptionSetReferenceItem6": {
-        "OptionSetReferenceColumnName": "isregularactivity",
-        "OptionSetReferenceEntityName": "Service Activities"
       }
     },
     "OptionSetTypeKey": "BooleanType",
@@ -476,10 +464,6 @@
       "OptionSetReferenceItem1": {
         "OptionSetReferenceColumnName": "community",
         "OptionSetReferenceEntityName": "Customer Voice alert"
-      },
-      "OptionSetReferenceItem2": {
-        "OptionSetReferenceColumnName": "community",
-        "OptionSetReferenceEntityName": "Service Activities"
       }
     },
     "OptionSetTypeKey": "PicklistType",
