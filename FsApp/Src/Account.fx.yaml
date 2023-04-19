@@ -111,10 +111,17 @@ Account As screen:
 
         Icon16 As icon.NextArrow:
             Icon: =Icon.NextArrow
-            OnSelect: =Navigate('Edit Account')
-            X: =563
-            Y: =77
+            OnSelect: =Navigate('Account Detail')
+            X: =555
+            Y: =36
             ZIndex: =9
+
+        Icon24 As icon.Edit:
+            Icon: =Icon.Edit
+            OnSelect: =Navigate('Update Account')
+            X: =555
+            Y: =105
+            ZIndex: =10
 
     Component1_7 As Component1:
         Height: =70
@@ -169,4 +176,11 @@ Account As screen:
         X: =20
         Y: =92
         ZIndex: =6
+
+    Icon21 As icon.Add:
+        Icon: =Icon.Add
+        OnSelect: =Navigate('Add New Account')
+        X: =555
+        Y: =67
+        ZIndex: =7
 

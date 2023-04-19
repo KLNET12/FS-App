@@ -104,7 +104,7 @@ Contact As screen:
 
         Icon18 As icon.NextArrow:
             Icon: =Icon.NextArrow
-            OnSelect: =Navigate('Edit Contact')
+            OnSelect: =Navigate('Contact Detail')
             X: =569
             Y: =87
             ZIndex: =9
