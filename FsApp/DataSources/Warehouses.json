@@ -1,0 +1,136 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "msdyn_warehouses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "msdyn_warehouse",
+    "Name": "Warehouses",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "msdyn_description": "Description",
+      "msdyn_msdyn_warehouse_bookableresource_Warehouse": "Bookable Resources",
+      "msdyn_msdyn_warehouse_businessunit_Warehouse": "Business Units",
+      "msdyn_msdyn_warehouse_msdyn_actual_Warehouse": "Actuals",
+      "msdyn_msdyn_warehouse_msdyn_fieldservicesetting_DefaultWarehouse": "Field Service Settings",
+      "msdyn_msdyn_warehouse_msdyn_inventoryadjustment_Warehouse": "Inventory Adjustments",
+      "msdyn_msdyn_warehouse_msdyn_inventoryjournal_Warehouse": "Inventory Journals",
+      "msdyn_msdyn_warehouse_msdyn_inventorytransfer_DestinationWarehouse": "Inventory Transfers (msdyn_msdyn_warehouse_msdyn_inventorytransfer_DestinationWarehouse)",
+      "msdyn_msdyn_warehouse_msdyn_inventorytransfer_SourceWarehouse": "Inventory Transfers (msdyn_msdyn_warehouse_msdyn_inventorytransfer_SourceWarehouse)",
+      "msdyn_msdyn_warehouse_msdyn_productinventory_Warehouse": "Product Inventory",
+      "msdyn_msdyn_warehouse_msdyn_purchaseorder_ReceivetoWarehouse": "Purchase Orders",
+      "msdyn_msdyn_warehouse_msdyn_purchaseorderproduct_AssociateToWarehouse": "Purchase Order Products",
+      "msdyn_msdyn_warehouse_msdyn_purchaseorderreceiptproduct_AssociateToWarehouse": "Purchase Order Receipt Products",
+      "msdyn_msdyn_warehouse_msdyn_rmaproduct_ReturntoWarehouse": "RMA Products",
+      "msdyn_msdyn_warehouse_msdyn_rtvproduct_Warehouse": "RTV Products",
+      "msdyn_msdyn_warehouse_msdyn_workorderproduct_Warehouse": "Work Order Products",
+      "msdyn_name": "Name",
+      "msdyn_warehouse_ActivityPointers": "Activities",
+      "msdyn_warehouse_Annotations": "Notes",
+      "msdyn_warehouse_Appointments": "Appointments",
+      "msdyn_warehouse_AsyncOperations": "System Jobs",
+      "msdyn_warehouse_BulkDeleteFailures": "Bulk Delete Failures",
+      "msdyn_warehouse_chats": "Teams chats",
+      "msdyn_warehouse_connections1": "Connections (msdyn_warehouse_connections1)",
+      "msdyn_warehouse_connections2": "Connections (msdyn_warehouse_connections2)",
+      "msdyn_warehouse_DuplicateBaseRecord": "Duplicate Records (msdyn_warehouse_DuplicateBaseRecord)",
+      "msdyn_warehouse_DuplicateMatchingRecord": "Duplicate Records (msdyn_warehouse_DuplicateMatchingRecord)",
+      "msdyn_warehouse_Emails": "Email Messages",
+      "msdyn_warehouse_Faxes": "Faxes",
+      "msdyn_warehouse_Letters": "Letters",
+      "msdyn_warehouse_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "msdyn_warehouse_msdyn_approvals": "Project Service Approvals",
+      "msdyn_warehouse_msdyn_bookingalerts": "Booking Alerts",
+      "msdyn_warehouse_msdyn_ocliveworkitems": "Conversations",
+      "msdyn_warehouse_msdyn_ocoutboundmessages": "Outbound messages",
+      "msdyn_warehouse_msdyn_ocsessions": "Sessions",
+      "msdyn_warehouse_msfp_alerts": "Customer Voice alert",
+      "msdyn_warehouse_msfp_surveyinvites": "Customer Voice survey invites",
+      "msdyn_warehouse_msfp_surveyresponses": "Customer Voice survey responses",
+      "msdyn_warehouse_PhoneCalls": "Phone Calls",
+      "msdyn_warehouse_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "msdyn_warehouse_ProcessSession": "Process Sessions",
+      "msdyn_warehouse_RecurringAppointmentMasters": "Recurring Appointments",
+      "msdyn_warehouse_ServiceAppointments": "Service Activities",
+      "msdyn_warehouse_SharePointDocumentLocations": "Document Locations",
+      "msdyn_warehouse_SocialActivities": "Social Activities",
+      "msdyn_warehouse_SyncErrors": "Sync Errors",
+      "msdyn_warehouse_Tasks": "Tasks",
+      "msdyn_warehouseid": "Warehouse",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Warehouses",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Warehouses (Views)",
+    "Name": "_msdyn_warehouse_views",
+    "RelatedEntityName": "Warehouses",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "15209e69-b75c-49d2-b0e6-81beb14e1d9e": "Inactive Warehouses",
+      "31207361-8123-42d9-8f33-7112efc54728": "Warehouse Advanced Find View",
+      "454d923b-8e27-4eee-9b19-a2d9615ee668": "Active Warehouses",
+      "eeee3bcb-0603-4146-ab68-87d686ecb04c": "Warehouse Associated View",
+      "f8f1d95a-4be4-46e7-afec-51efc5feb168": "Warehouse Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Warehouses)",
+    "Name": "msdyn_warehouse_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Warehouses"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Warehouses",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Warehouses)",
+    "Name": "msdyn_warehouse_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Warehouses"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Warehouses",
+    "Type": "OptionSetInfo"
+  }
+]

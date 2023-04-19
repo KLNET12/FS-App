@@ -1,0 +1,128 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "msdyn_productinventories",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "msdyn_productinventory",
+    "Name": "Product Inventory",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "msdyn_bin": "Bin",
+      "msdyn_internalflags": "Internal Flags",
+      "msdyn_name": "Name",
+      "msdyn_product": "Product",
+      "msdyn_productinventory_ActivityPointers": "Activities",
+      "msdyn_productinventory_Annotations": "Notes",
+      "msdyn_productinventory_Appointments": "Appointments",
+      "msdyn_productinventory_AsyncOperations": "System Jobs",
+      "msdyn_productinventory_BulkDeleteFailures": "Bulk Delete Failures",
+      "msdyn_productinventory_chats": "Teams chats",
+      "msdyn_productinventory_connections1": "Connections (msdyn_productinventory_connections1)",
+      "msdyn_productinventory_connections2": "Connections (msdyn_productinventory_connections2)",
+      "msdyn_productinventory_DuplicateBaseRecord": "Duplicate Records (msdyn_productinventory_DuplicateBaseRecord)",
+      "msdyn_productinventory_DuplicateMatchingRecord": "Duplicate Records (msdyn_productinventory_DuplicateMatchingRecord)",
+      "msdyn_productinventory_Emails": "Email Messages",
+      "msdyn_productinventory_Faxes": "Faxes",
+      "msdyn_productinventory_Letters": "Letters",
+      "msdyn_productinventory_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "msdyn_productinventory_msdyn_approvals": "Project Service Approvals",
+      "msdyn_productinventory_msdyn_bookingalerts": "Booking Alerts",
+      "msdyn_productinventory_msdyn_ocliveworkitems": "Conversations",
+      "msdyn_productinventory_msdyn_ocoutboundmessages": "Outbound messages",
+      "msdyn_productinventory_msdyn_ocsessions": "Sessions",
+      "msdyn_productinventory_msfp_alerts": "Customer Voice alert",
+      "msdyn_productinventory_msfp_surveyinvites": "Customer Voice survey invites",
+      "msdyn_productinventory_msfp_surveyresponses": "Customer Voice survey responses",
+      "msdyn_productinventory_PhoneCalls": "Phone Calls",
+      "msdyn_productinventory_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "msdyn_productinventory_ProcessSession": "Process Sessions",
+      "msdyn_productinventory_RecurringAppointmentMasters": "Recurring Appointments",
+      "msdyn_productinventory_ServiceAppointments": "Service Activities",
+      "msdyn_productinventory_SocialActivities": "Social Activities",
+      "msdyn_productinventory_SyncErrors": "Sync Errors",
+      "msdyn_productinventory_Tasks": "Tasks",
+      "msdyn_productinventoryid": "Product Inventory",
+      "msdyn_qtyallocated": "Quantity Allocated",
+      "msdyn_qtyavailable": "Quantity Available",
+      "msdyn_qtyonhand": "Quantity On Hand",
+      "msdyn_qtyonorder": "Quantity On Order",
+      "msdyn_reorderpoint": "Reorder Point",
+      "msdyn_row": "Row",
+      "msdyn_unit": "Unit",
+      "msdyn_warehouse": "Warehouse",
+      "organizationid": "Organization Id",
+      "overriddencreatedon": "Record Created On",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Product Inventory",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Product Inventory (Views)",
+    "Name": "_msdyn_productinventory_views",
+    "RelatedEntityName": "Product Inventory",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "05a1a74e-1670-4f28-b574-ae9a48175d8f": "Product Inventory Associated View",
+      "312bd8b3-513b-4140-ac09-83caf748adf1": "Product Inventory Lookup View",
+      "7437e10c-44e5-e111-bbe0-000c2959f9b8": "Inventory Transfer Dialog View",
+      "92493c84-7db3-49cf-9395-f87e352592ee": "Product Inventory Advanced Find View",
+      "e3d8a7ea-00eb-4f94-9ebd-5b0443d9927b": "Inactive Product Inventory",
+      "f8b2f264-8099-4827-9c0e-e03020e2fc85": "Active Product Inventory"
+    }
+  },
+  {
+    "DisplayName": "Status (Product Inventory)",
+    "Name": "msdyn_productinventory_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Product Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Product Inventory",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Product Inventory)",
+    "Name": "msdyn_productinventory_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Product Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Product Inventory",
+    "Type": "OptionSetInfo"
+  }
+]

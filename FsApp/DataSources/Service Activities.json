@@ -1,0 +1,300 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "serviceappointments",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "serviceappointment",
+    "Name": "Service Activities",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "_regardingobjectid_value": "Regarding",
+      "{Attachments}": "Attachments",
+      "activityadditionalparams": "Additional Parameters",
+      "activityid": "Service Activity",
+      "activitytypecode": "Activity Type",
+      "actualdurationminutes": "Actual Duration",
+      "actualend": "Actual End",
+      "actualstart": "Actual Start",
+      "CampaignResponse_ServiceAppointments": "Campaign Responses",
+      "category": "Category",
+      "community": "Social Channel",
+      "createdby_serviceappointment": "Created By",
+      "createdon": "Date Created",
+      "createdonbehalfby_serviceappointment": "Created By (Delegate)",
+      "deliverylastattemptedon": "Date Delivery Last Attempted",
+      "deliveryprioritycode": "Delivery Priority",
+      "description": "Description",
+      "exchangeitemid": "Exchange Item ID",
+      "exchangerate": "Exchange Rate",
+      "exchangeweblink": "Exchange WebLink",
+      "importsequencenumber": "Import Sequence Number",
+      "instancetypecode": "Recurring Instance Type",
+      "isalldayevent": "All Day Event",
+      "isbilled": "Is Billed",
+      "ismapiprivate": "Is Private",
+      "isregularactivity": "Is Regular Activity",
+      "isworkflowcreated": "Is Workflow Created",
+      "lastonholdtime": "Last On Hold Time",
+      "leftvoicemail": "Left Voice Mail",
+      "location": "Delivery Location",
+      "modifiedby_serviceappointment": "Modified By",
+      "modifiedon": "Last Updated",
+      "modifiedonbehalfby_serviceappointment": "Modified By (Delegate)",
+      "msdyn_OrganizationalUnitServiceAppointmentId_ServiceAppointment": "OrganizationalUnit ServiceAppointment Id",
+      "msdyn_serviceappointment_bookableresourcebooking_serviceappointment": "Bookable Resource Bookings",
+      "msdyn_serviceappointment_msdyn_resourcerequirement_serviceappointment": "Resource Requirements",
+      "onholdtime": "On Hold Time (Minutes)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit_serviceappointment": "Owning Business Unit",
+      "owningteam_serviceappointment": "Owning Team",
+      "owninguser_serviceappointment": "Owning User",
+      "postponeactivityprocessinguntil": "Delay activity processing until",
+      "prioritycode": "Priority",
+      "processid": "Process",
+      "scheduleddurationminutes": "Scheduled Duration",
+      "scheduledend": "Scheduled End",
+      "scheduledstart": "Scheduled Start",
+      "sendermailboxid_serviceappointment": "Sender's Mailbox",
+      "senton": "Date Sent",
+      "seriesid": "Series Id",
+      "serviceappointment_actioncard": "Action Cards",
+      "ServiceAppointment_Annotation": "Notes",
+      "ServiceAppointment_AsyncOperations": "System Jobs",
+      "ServiceAppointment_BulkDeleteFailures": "Bulk Delete Failures",
+      "serviceappointment_connections1": "Connections (serviceappointment_connections1)",
+      "serviceappointment_connections2": "Connections (serviceappointment_connections2)",
+      "serviceappointment_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "serviceappointment_principalobjectattributeaccess": "Field Sharing",
+      "ServiceAppointment_ProcessSessions": "Process Sessions",
+      "ServiceAppointment_QueueItem": "Queue Items",
+      "ServiceAppointment_SyncErrors": "Sync Errors",
+      "serviceid_serviceappointment": "Service",
+      "siteid": "Site",
+      "SLAId": "SLA",
+      "slainvokedid_serviceappointment_sla": "Last SLA applied",
+      "slakpiinstance_serviceappointment": "SLA KPI Instances",
+      "sortdate": "Sort Date",
+      "stageid": "(Deprecated) Process Stage",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "subcategory": "Sub-Category",
+      "subject": "Subject",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid_serviceappointment": "Currency",
+      "traversedpath": "(Deprecated) Traversed Path",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Service Activities",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Recurring Instance Type (Service Activities)",
+    "Name": "_serviceappointment_instancetypecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Not Recurring",
+      "1": "Recurring Master",
+      "2": "Recurring Instance",
+      "3": "Recurring Exception",
+      "4": "Recurring Future Exception"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "instancetypecode",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "instancetypecode",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Left Voice Mail (Service Activities)",
+    "Name": "_serviceappointment_leftvoicemail",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "leftvoicemail",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "leftvoicemail",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Service Activities (Views)",
+    "Name": "_serviceappointment_views",
+    "RelatedEntityName": "Service Activities",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "05c592d7-578b-427f-b877-ab676c77fb77": "Service Activity Advanced Find View",
+      "2be57c46-35fc-4fb9-8094-bd82da6c4b07": "Service Activity Lookup View",
+      "36c60cbd-afb1-4217-9211-8189dbf5c07c": "All Service Activities",
+      "67be10ba-1dd4-40f8-b940-e9e01ef00534": "My Service Activities",
+      "70540b32-fc70-426e-a4b3-a92056ce4717": "Service Appointment Associated View"
+    }
+  },
+  {
+    "DisplayName": "All Day Event (Service Activities)",
+    "Name": "serviceappointment_isalldayevent",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isalldayevent",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isalldayevent",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Billed (Service Activities)",
+    "Name": "serviceappointment_isbilled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbilled",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbilled",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Private (Service Activities)",
+    "Name": "serviceappointment_ismapiprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ismapiprivate",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ismapiprivate",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Workflow Created (Service Activities)",
+    "Name": "serviceappointment_isworkflowcreated",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isworkflowcreated",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isworkflowcreated",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Priority (Service Activities)",
+    "Name": "serviceappointment_prioritycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Low",
+      "1": "Normal",
+      "2": "High"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "prioritycode",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "prioritycode",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Service Activities)",
+    "Name": "serviceappointment_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Open",
+      "1": "Closed",
+      "2": "Canceled",
+      "3": "Scheduled"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Service Activities)",
+    "Name": "serviceappointment_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Requested",
+      "10": "No Show",
+      "2": "Tentative",
+      "3": "Pending",
+      "4": "Reserved",
+      "6": "In Progress",
+      "7": "Arrived",
+      "8": "Completed",
+      "9": "Canceled"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Service Activities"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Service Activities",
+    "Type": "OptionSetInfo"
+  }
+]

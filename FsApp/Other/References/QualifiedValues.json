@@ -351,6 +351,27 @@
       "Kind": "default.cds_resource_forms",
       "Namespace": "Resources (Forms)",
       "Values": {}
+    },
+    {
+      "Kind": "default.cds_msdyn_productinventory_forms",
+      "Namespace": "Product Inventory (Forms)",
+      "Values": {
+        "Information": "87305d0b-a3ee-44a8-9885-1478387e7881"
+      }
+    },
+    {
+      "Kind": "default.cds_serviceappointment_forms",
+      "Namespace": "Service Activities (Forms)",
+      "Values": {
+        "Information": "17e87c93-c009-4089-b64c-ed966d33a4ae"
+      }
+    },
+    {
+      "Kind": "default.cds_msdyn_warehouse_forms",
+      "Namespace": "Warehouses (Forms)",
+      "Values": {
+        "Information": "c26581bd-8235-4491-84cc-6fe30b8bad3d"
+      }
     }
   ]
 }
